@@ -3,7 +3,6 @@ export async function load() {
 	const sessions = await response.json();
 	
 	return {
-		sessions
+		sessions: sessions
 	};
 }
-
