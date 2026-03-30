@@ -13,6 +13,6 @@ export async function load({ params }) {
   const steps: Step[] = await response.json();
 
   return {
-    steps: steps // Pass the steps to the page
+    steps: steps, // Pass the steps to the page
   };
 }
